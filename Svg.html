@@ -3,10 +3,11 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="Svg.css">
     <meta charset="utf-8">
-<title>Log Cabin</title>
+<title>Snowy Cabin</title>
   </head>
   <body>
-    <p> a log cabin in a world of snow.</p>
+    <h1 class="center">Snowy Cabin</h1>
+    <p>A log cabin surrounded by snow. Mostly inspired by the lack of snow in California.</p>
     <svg width="100%"  height="100%" style="background-color: #08f">
       <rect x="0" y="0" width="3000" height="1000" fill="#08f">
       <animate attributeName="fill" from="#08f" to="#black" dur="3s"fill="freeze" begin="moonRising.begin"/>
@@ -15,15 +16,19 @@
     <polygon points="1000 300 1200 300 1200 250" fill="#ccc"/>
   <ellipse cx="0" cy="600" rx="500" ry="100" fill="#ccc"/>
     <circle cx="0" cy="0" r="100" fill="yellow">
-                    <animate id="moonRising"attributeName="fill" from="yellow" to="white" dur="5s"fill="freeze" begin="click"/>
-  </circle>
+    <animate id="moonRising"attributeName="fill" from="yellow" to="white" dur="5s"fill="freeze" begin="click"/>
+    </circle>
 
     <ellipse cx="1175" cy="250" rx="15" ry="100" fill="#ccc" opacity="0">
   <animate id="SmokeAppear" attributeName="opacity" from="0" to="1" dur="5s"fill="freeze" begin="click"/>
     <animate attributeName="opacity" from="1" to="0" dur="5s"fill="freeze" begin="SmokeAppear.end"/>
-    </ellipse>
+  </ellipse>
 
     <rect x="1000" y="300" width="200" height="100" fill="#c60"/>
+
+        <rect x="65" y="445" width="70" height="10" fill="#c60">
+<animateTransform attributeName="transform" attributeType="XML"type="rotate"from="0 105 445"to="45 105 445"dur="2s" begin="click" fill="freeze">
+        </rect>
 
     <rect x="1025" y="325" width="40" height="40" fill="#08f">
     <animate id="moonRising"attributeName="fill" from="#08f" to="yellow" dur="2s"fill="freeze" begin="moonRising.begin"/>
@@ -49,34 +54,34 @@
                 <animate attributeName="fill" from="white" to="#ccc" dur="4s"fill="freeze" begin="click"/>
            </circle>
 
-<circle cx="80" cy="3" r="10" fill="white">
+<circle cx="80" cy="3" r="10" fill="white" opacity="0.75">
     <animate attributeName="cy" from="20" to="650" dur="3s"repeatCount="indefinite"/>
   </circle>
-  <circle cx="400" cy="3" r="10" fill="white">
+  <circle cx="400" cy="3" r="10" fill="white"opacity="0.75">
       <animate attributeName="cy" from="0" to="650" dur="3s"repeatCount="indefinite"/>
     </circle>
-    <circle cx="600" cy="3" r="10" fill="white">
+    <circle cx="600" cy="3" r="10" fill="white"opacity="0.75">
         <animate attributeName="cy" from="0" to="650" dur="3.4s"repeatCount="indefinite"/>
       </circle>
-      <circle cx="1000" cy="3" r="10" fill="white">
+      <circle cx="1000" cy="3" r="10" fill="white"opacity="0.75">
           <animate attributeName="cy" from="0" to="650" dur="2.4s"repeatCount="indefinite"/>
         </circle>
-        <circle cx="1300" cy="3" r="10" fill="white">
+        <circle cx="1300" cy="3" r="10" fill="white"opacity="0.75">
             <animate attributeName="cy" from="0" to="650" dur="4.5s"repeatCount="indefinite"/>
           </circle>
-          <circle cx="50" cy="3" r="10" fill="white">
+          <circle cx="50" cy="3" r="10" fill="white"opacity="0.75">
               <animate attributeName="cy" from="0" to="650" dur="5s"repeatCount="indefinite"/>
             </circle>
-            <circle cx="550" cy="3" r="10" fill="white">
+            <circle cx="550" cy="3" r="10" fill="white"opacity="0.75">
                 <animate attributeName="cy" from="0" to="650" dur="3.1s"repeatCount="indefinite"/>
               </circle>
-              <circle cx="750" cy="3" r="10" fill="white">
+              <circle cx="750" cy="3" r="10" fill="white"opacity="0.75">
                   <animate attributeName="cy" from="0" to="650" dur="2s"repeatCount="indefinite"/>
                 </circle>
-                <circle cx="950" cy="3" r="10" fill="white">
+                <circle cx="950" cy="3" r="10" fill="white"opacity="0.75">
                     <animate attributeName="cy" from="0" to="650" dur="3.3s"repeatCount="indefinite"/>
                   </circle>
-                  <circle cx="1100" cy="3" r="10" fill="white">
+                  <circle cx="1100" cy="3" r="10" fill="white"opacity="0.75">
                       <animate attributeName="cy" from="0" to="650" dur="4.2s"repeatCount="indefinite"/>
                     </circle>
     </svg>
