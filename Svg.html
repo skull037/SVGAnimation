@@ -11,36 +11,42 @@
       <rect x="0" y="0" width="3000" height="1000" fill="#08f">
       <animate attributeName="fill" from="#08f" to="#black" dur="3s"fill="freeze" begin="moonRising.begin"/>
       </rect>
-  <polygon points="-25 650 2000 100 2000 650" fill="#ddd"/>
-    <polygon points="1000 300 1200 300 1200 250" fill="#ddd"/>
-  <ellipse cx="0" cy="600" rx="500" ry="100" fill="#ddd"/>
+  <polygon points="-25 650 2000 100 2000 650" fill="#ccc"/>
+    <polygon points="1000 300 1200 300 1200 250" fill="#ccc"/>
+  <ellipse cx="0" cy="600" rx="500" ry="100" fill="#ccc"/>
     <circle cx="0" cy="0" r="100" fill="yellow">
                     <animate id="moonRising"attributeName="fill" from="yellow" to="white" dur="5s"fill="freeze" begin="click"/>
   </circle>
 
-    <ellipse cx="1175" cy="250" rx="15" ry="100" fill="#aaa" opacity="0">
+    <ellipse cx="1175" cy="250" rx="15" ry="100" fill="#ccc" opacity="0">
   <animate id="SmokeAppear" attributeName="opacity" from="0" to="1" dur="5s"fill="freeze" begin="click"/>
     <animate attributeName="opacity" from="1" to="0" dur="5s"fill="freeze" begin="SmokeAppear.end"/>
     </ellipse>
 
     <rect x="1000" y="300" width="200" height="100" fill="#c60"/>
 
+    <rect x="1025" y="325" width="40" height="40" fill="#08f">
+    <animate id="moonRising"attributeName="fill" from="#08f" to="yellow" dur="2s"fill="freeze" begin="moonRising.begin"/>
+    </rect>
+    <rect x="1040" y="325" width="10" height="40" fill="#c60"/>
+        <rect x="1025" y="340" width="40" height="10" fill="#c60"/>
+
     <rect x="1150" y="250" width="50" height="50" fill="#c60"/>
 
 
-  <circle cx="100" cy="485" r="25" fill="#ddd"/>
-      <circle cx="100" cy="450" r="15" fill="#ddd"/>
+  <circle cx="100" cy="485" r="25" fill="#ccc"/>
+      <circle cx="100" cy="450" r="15" fill="#ccc"/>
             <circle cx="100" cy="425" r="10" fill="white">
-              <animate id="SnowHeadFall"attributeName="cx" from="100" to="115" dur="2s"fill="freeze" begin="click"/>
-                <animate attributeName="cy" from="425" to="490" dur="1s"fill="freeze" begin="SnowHeadFall.end"/>
-                <animate attributeName="fill" from="white" to="#ddd" dur="3s"fill="freeze" begin="click"/>
+              <animate id="SnowHeadFall"attributeName="cx" from="100" to="115" dur="1s"fill="freeze" begin="click"/>
+                <animate attributeName="cy" from="425" to="490" dur="0.5s"fill="freeze" begin="SnowHeadFall.end"/>
+                <animate attributeName="fill" from="white" to="#ccc" dur="1.5s"fill="freeze" begin="click"/>
             </circle>
 
            <circle cx="900" cy="375" r="25" fill="white">
   <animate attributeName="cx" from="900" to="400" dur="4s"fill="freeze" begin="click"/>
     <animate attributeName="cy" from="375" to="500" dur="4s"fill="freeze" begin="click"/>
         <animate attributeName="r" from="25" to="50" dur="4s"fill="freeze" begin="click"/>
-                <animate attributeName="fill" from="white" to="#ddd" dur="4s"fill="freeze" begin="click"/>
+                <animate attributeName="fill" from="white" to="#ccc" dur="4s"fill="freeze" begin="click"/>
            </circle>
 
 <circle cx="80" cy="3" r="10" fill="white">
